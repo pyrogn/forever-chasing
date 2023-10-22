@@ -20,7 +20,7 @@ for t in range(time_points):
     f_forward = m * acc * acc_direction
     f_resistance = res * v
     f_diff = f_forward - f_resistance
-    # print(v/m, f_forward, f_resistance, f_diff)
+    # print(v/MASS, f_forward, f_resistance, f_diff)
 
     coord = coord + v * 1
     coords.append(coord)
